@@ -1,0 +1,46 @@
+## KaraCos Web Platform Engine
+## Template theme starting point :
+## templates are rendered with this context :
+## ${instance} = current KaraCos object instance
+## ${form} = form for current action if any
+## ${result} = result of current action if any
+## a form for a given action of a given object is called with url (see details below):
+## http://${instance.__domain__['fqdn']/${instance._get_action_url()}/${action.action}
+##
+## Common instance API :
+## instance.__domain__ : KaraCos Domain instance containing current instance
+## instance['childrens'] = dict data for an instance childrens, key: object name, value : object_id in db
+## get a children instance with instance.db[instance['childrens'][NODE_NAME]]
+## instance._get_action_url() : returns domain absolute url
+##
+##
+##
+<html>
+<head>
+<img src="" width=100% >
+<h2>PRESENTATION</h2>
+</head>
+<body>
+<form methode="post" action="/login">
+<hr>
+<div align=center>
+<a href="accueil.html">accueil</a>
+<a href="profil.html">Profile</a>
+<a href="activité.html">Activité</a>
+<a href="contactl.html">Contact</a>
+</div>
+
+<div>
+<table width=1>
+<tr align="rigt">
+<img src="dadie.img">
+<tr>
+ <tr align="left">
+ commentaire
+ 
+ 
+</tr>
+</div>
+</form>
+</body>
+</html>
