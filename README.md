@@ -1,1 +1,2 @@
-training karacos template
+exemple d'accès au git 
+
