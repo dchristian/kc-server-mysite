@@ -31,15 +31,16 @@
 </div>
 
 <div>
-<table width=1>
-<tr align="rigt">
-<img src="dadie.img">
+<table border="1">
 <tr>
- <tr align="left">
- commentaire
- 
- 
+<td align="rigt">
+<img src="/_server/images/bmw.jpg">
+<td>
+ <td align="left">
+ commentaire 
+</td>
 </tr>
+</table>
 </div>
 </form>
 </body>
