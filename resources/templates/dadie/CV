@@ -1,0 +1,76 @@
+## KaraCos Web Platform Engine
+## Template theme starting point :
+## templates are rendered with this context :
+## ${instance} = current KaraCos object instance
+## ${form} = form for current action if any
+## ${result} = result of current action if any
+## a form for a given action of a given object is called with url (see details below):
+## http://${instance.__domain__['fqdn']/${instance._get_action_url()}/${action.action}
+##
+## Common instance API :
+## instance.__domain__ : KaraCos Domain instance containing current instance
+## instance['childrens'] = dict data for an instance childrens, key: object name, value : object_id in db
+## get a children instance with instance.db[instance['childrens'][NODE_NAME]]
+## instance._get_action_url() : returns domain absolute url
+##
+##
+##
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr"> 
+<html> 
+<head> 
+<title>curriculum vitae</title> 
+<img src="/home/dadie/Bureau/Documents/site_tido/imagecv/tido.jpg" align=right> 
+<h2> INGENIEUR INFORMATICIEN</h2> 
+<br> 
+</head> 
+ 
+<body bgcolor=#FFFF00> 
+<hr width=95% size=1 align=center> 
+<hr width=95% size=1 align=center> 
+<pre> 
+<h3>   <label>ETAT CIVIL</label> </h3> 
+  <label>Nom et Pr&eacute;noms: DADIE CHRISTIAN ARISTIDE</label> 
+  <label>Date et lieu de naissance: 05/02/1975</label> 
+  <label>Adresse:11, rue des aulnes 77680 ROISSY EN BRIE</label> 
+  <label>Contact: 0669511461</label> 
+  <label>email: dadiearistide@yahoo.fr</label> 
+  <label>Situation matrimoniale: Mari&eacute; avec un enfant</label> 
+</pre> 
+<hr width=95% size=1 align=center> 
+<hr width=95% size=1 align=center> 
+<ul> 
+<lh><h3>DIPLOMES ET FORMATIONS</h3> 
+<li>2003-2007: Titulaire du diplome d'ing&eacute;ieur information option g&eacute;nie logiciel Ã  ITES II PLATEAUX
+<li>2000-2003: Titulaire du brevet de technicien superieur en informatique industrielle et maintenance Ã  ITES II PLATEAUX
+<li>1997-1998: Titulaire du baccalaureat serie D au lycÃ©e moderne de bouaflÃ©
+</ul> 
+ 
+<hr width=95% size=1 align=center> 
+<hr width=95% size=1 align=center> 
+<ul> 
+<lh><h3>DOMAINES DE COMPETENCES TECHNIQUES</h3> 
+<li>Developpemnt d'application sous windev, visual basic,C++
+<li>Webmaster(conception de site web et mainetnance)
+<li>Administration base de donnÃ©es sous oracle, SQLserver
+<li>Administration reseau informatique
+<li>Conception de reseau informatique 
+<li>maintenance informatique
+</ul> 
+<hr width=95% size=1 align=center> 
+<hr width=95% size=1 align=center> 
+<ul> 
+<lh><h3>EXPERIENCES PROFESSIONNELLES</h3> 
+<li>Juillet 2007-fevrier 2008: Stagiaire en developpement d'application sous windev Ã  l'UNACOOPEC-CI, Mission: conc&eacute;ption d'un systeme d'information de gestion du registre d'affiliations et d'agrements des coopec du reseau de l'UNACOOPEC-CI et 
+<li>Aout Ã  novembre 2003:Stagiaire en maintenance du reseau informatique Ã  Audiance international, Mission: depannage d'un PC dans un reseau local 
+</ul> 
+<hr width=95% size=1 align=center> 
+<hr width=95% size=1 align=center> 
+<ul> 
+<lh><h3>AUTRES</h3> 
+<li>Anglais lu et parle moyen
+<li>Titulaire du permis B
+</ul> 
+ 
+</body> 
+</html> 

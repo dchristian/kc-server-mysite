@@ -1,0 +1,103 @@
+## KaraCos Web Platform Engine
+## Template theme starting point :
+## templates are rendered with this context :
+## ${instance} = current KaraCos object instance
+## ${form} = form for current action if any
+## ${result} = result of current action if any
+## a form for a given action of a given object is called with url (see details below):
+## http://${instance.__domain__['fqdn']/${instance._get_action_url()}/${action.action}
+##
+## Common instance API :
+## instance.__domain__ : KaraCos Domain instance containing current instance
+## instance['childrens'] = dict data for an instance childrens, key: object name, value : object_id in db
+## get a children instance with instance.db[instance['childrens'][NODE_NAME]]
+## instance._get_action_url() : returns domain absolute url
+##
+##
+##
+
+<html> 
+ 
+<head> 
+<title> 
+activite
+</title> 
+<link rel="stylesheet" type="text/css" href="style.css" title="style" > 
+ 
+</head> 
+ 
+<body background="fondecran.jpg" width="100%"> 
+ 
+<!banniere!> 
+<div> 
+<table width="1200" heigth="100" cellspacing="0"> 
+<td> 
+<img src="entete.jpg"> 
+</td> 
+</table> 
+</div> 
+ 
+<!menu!> 
+<div align="center"> 
+<a href="accueil.html">Accueil</a> 
+<a href="profil.html">Profile</a> 
+<a href="activitÃ©.html">Activit&eacute;</a> 
+<a href="contactl.html">Contact</a> 
+</div> 
+ 
+ 
+<!division de l'espace de travail!> 
+<table border="1" cellspacing="0" width="1200" height="1200"> 
+<td width="15%" valign="top" bgcolor="bluesky"> <br><br><br> 
+<table border="1" cellspacing="0" width="150" align="center"><td> 
+<ul> 
+<li><a href="accueil.html">Accueil</a></li><br> 
+<li><a href="profil.html">Profile</a></li><br> 
+<li><a href="activitÃ©.html">Activit&eacute;</a></li><br> 
+<li><a href="contactl.html">Contact</a></li><br> 
+</ul> 
+</td></table> 
+<br><br><br> 
+<table border="1" cellspacing="0" width="150" height="450"align="center"><td> 
+<img src="" width="120" heigth="400"> 
+</td></table> 
+ 
+<br><br><br> 
+<table border="1" cellspacing="0" width="150" height="400"align="center"><td> 
+<img src="" width="120" heigth="350"> 
+</td></table> 
+</td> 
+ 
+ 
+<!2ieme cadre!> 
+ 
+<td width="70%" valign="center" bgcolor="bluejean"> 
+<table border="1" cellspacing="0" width="850" height="1200" align="center"><tr> 
+<td width="100%" heigth="600"> 
+commentaire
+</td> 
+</tr> 
+ 
+<tr> 
+<td width="100%" height="600"> 
+<img src="chemin.jpg" width="849" heigth="598"> 
+</td> 
+</tr></table> 
+ <p> 
+</td> 
+ 
+ 
+<!3ieme cadre!> 
+<td width="15%" valign="center" bgcolor="bluesky"> 
+ <img border="1" src="" width="175" heigth="400"> 
+<br> 
+<img border="1" src="" width="175" heigth="400"> 
+</td> 
+</table> 
+ 
+ 
+</form> 
+ 
+</form> 
+</body> 
+</html> 
